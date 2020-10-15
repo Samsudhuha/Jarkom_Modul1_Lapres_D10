@@ -1,5 +1,8 @@
 # Jarkom_Modul1_Lapres_D10
 
+### RYU & Samsu
+### Kelompok D10
+
 ## Soal
 1. Sebutkan webserver yang digunakan pada "​testing.mekanis.me​"!
 2. Simpan gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"!
@@ -22,7 +25,11 @@
 ``` 
 http.host == testing.mekanis.me -> klik kanan -> follow -> http stream 
 ```
-<br>
+<center>
+  
+![img](/img/1.png)
+
+</center>
 
 <br>
 
@@ -32,7 +39,11 @@ Simpan gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"! frame con
 [ketika saya pake filter dan download, malah gabisa kebuka]
 [ketika saya download manual dengan file -> export object -> http -> cari namanya lalu download]
 ```
-<br>
+<center>
+  
+![img](/img/2.png)
+
+</center>
 
 <br>
 
@@ -40,11 +51,28 @@ Simpan gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"! frame con
 ```
 http.host contains "ppid.dpr.go.id" && http.request.method == POST
 ```
+<center>
+  
+![img](/img/3.png)
+
+</center>
+<center>
+  
+![img](/img/3.1.png)
+
+</center>
+
+<br>
+
 4. 
 ```
 http.authbasic
 ```
-<br>
+<center>
+  
+![img](/img/4.png)
+
+</center>
 
 <br>
 
@@ -52,7 +80,21 @@ http.authbasic
 ```
 http.authbasic && http.host contains "aku.pengen.pw"
 ```
-<br>
+<center>
+  
+![img](/img/5.png)
+
+</center>
+<center>
+  
+![img](/img/5.1.png)
+
+</center>
+<center>
+  
+![img](/img/5.2.png)
+
+</center>
 
 <br>
 
@@ -62,7 +104,11 @@ pada display filter ketik ftp-data, lalu pada info cari yang (STOR Answer.zip)
 lalu klik kanan klik follow TCP stream, pada show and save data as ganti ke RAW lalu save as ke folder dengan nama answer.zip, 
 kembali lagi ke display filter ketik ftp-data, lalu pada info yang (STOR zipkey.txt) lalu buka file zip dan masukkan password yang kita dapat dari file zipkey.txt
 ```
-<br>
+<center>
+  
+![img](/img/6.png)
+
+</center>
 
 <br>
 
@@ -70,13 +116,22 @@ kembali lagi ke display filter ketik ftp-data, lalu pada info yang (STOR zipkey.
 ```
 frame contains “Yes.pdf” -> klik kanan -> follow -> tcp stream -> ubah raw -> save as kasih nama [nama].zip
 ```
-<br>
+<center>
+  
+![img](/img/7.png)
+
+</center>
 
 <br>
+
 ```
 buka file .zipnya
 ```
-<br>
+<center>
+  
+![img](/img/7.1.png)
+
+</center>
 
 <br>
 
@@ -84,7 +139,11 @@ buka file .zipnya
 ```
 pada display filter ketik ftp.request.command == RETR
 ```
-<br>
+<center>
+  
+![img](/img/8.png)
+
+</center>
 
 <br>
 
@@ -92,7 +151,11 @@ pada display filter ketik ftp.request.command == RETR
 ```
 pada display filter -> ketik ftp lalu akan muncul data seperti berikut
 ```
-<br>
+<center>
+  
+![img](/img/9.png)
+
+</center>
 
 <br>
 
@@ -100,7 +163,16 @@ pada display filter -> ketik ftp lalu akan muncul data seperti berikut
 ```
 frame contains "application/pdf" -> klik kanan -> follow -> tcp stream -> ubah raw -> save as kasih [nama].pdf
 ```
-<br>
+<center>
+  
+![img](/img/10.png)
+
+</center>
+<center>
+  
+![img](/img/10.1.png)
+
+</center>
 
 <br>
 
@@ -108,7 +180,11 @@ frame contains "application/pdf" -> klik kanan -> follow -> tcp stream -> ubah r
 ```
 klik adapter for loopback traffic capture -> pada kolom “...using this filter” ketik port 21
 ```
-<br>
+<center>
+  
+![img](/img/11.png)
+
+</center>
 
 <br>
 
@@ -116,7 +192,11 @@ klik adapter for loopback traffic capture -> pada kolom “...using this filter�
 ```
 klik Wi-Fi -> pada kolom “...using this filter” ketik src port 80
 ```
-<br>
+<center>
+  
+![img](/img/12.png)
+
+</center>
 
 <br>
 
@@ -124,7 +204,11 @@ klik Wi-Fi -> pada kolom “...using this filter” ketik src port 80
 ```
 klik Wi-Fi -> pada kolom “...using this filter” ketik dst port 443
 ```
-<br>
+<center>
+  
+![img](/img/13.png)
+
+</center>
 
 <br>
 
@@ -132,7 +216,11 @@ klik Wi-Fi -> pada kolom “...using this filter” ketik dst port 443
 ```
 klik Wi-Fi -> pada kolom “...using this filter” ketik src host 192.168.1.14 (ip masing”)
 ```
-<br>
+<center>
+  
+![img](/img/14.png)
+
+</center>
 
 <br>
 
@@ -140,6 +228,10 @@ klik Wi-Fi -> pada kolom “...using this filter” ketik src host 192.168.1.14 
 ```
 klik Wi-Fi -> pada kolom “...using this filter” ketik dst host monta.if.its.ac.id
 ```
-<br>
+<center>
+  
+![img](/img/15.png)
+
+</center>
 
 <br>
